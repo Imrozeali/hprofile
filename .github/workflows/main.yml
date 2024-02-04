@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Code checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       - name: Maven test
         run: mvn test
@@ -54,7 +54,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Code checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v2
 
       - name: Update application.properties file
         run:  |
