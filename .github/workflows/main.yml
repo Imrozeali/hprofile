@@ -67,12 +67,12 @@ jobs:
         with:
          access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
          secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-         registry: ${{ secrets.REGISTRY_1 }}
+         registry: ${{ secrets.REGISTRY }}
          repo: actapp
          region: ${{ env.AWS_REGION }}
          tags: latest,${{ github.run_number }}
          daemon_off: false
          dockerfile: ./Dockerfile
-         context: ./  
+         context: ./  i
 
 
