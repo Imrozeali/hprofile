@@ -114,7 +114,7 @@ jobs:
           id: task-def
           uses: aws-actions/amazon-ecs-render-task-definition@v1
           with:
-            task-definition: vprofileapp-act-tdef
+            task-definition: taskdeffile.json
             container-name: vproapp
             image: ${{ steps.build-image.outputs.image }}
     
@@ -125,5 +125,7 @@ jobs:
             service: vproapp-act-svc
             cluster: vprofileapp-act
             wait-for-service-stability: true
+
+
 
 
