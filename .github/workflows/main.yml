@@ -5,7 +5,7 @@ env:
   ECR_REPOSITORY: imroze
   ECS_SERVICE: vproapp-act-svc
   ECS_CLUSTER: vprofileapp-act
-  ECS_TASK_DEFINATION: vprofileapp-act-tdef
+  ECS_TASK_DEFINATION: taskdefile.json
   CONTAINER_NAME: vproapp
 
 jobs: 
