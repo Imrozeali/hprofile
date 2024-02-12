@@ -4,8 +4,8 @@ env:
   AWS_REGION: ap-south-1
   ECR_REPOSITORY: imroze
   ECS_SERVICE: vproapp-act-svc
-  ECS_CLUSTER: vprofileapp-act
-  ECS_TASK_DEFINATION: taskdefile.json
+  ECS_CLUSTER: vproapp-act
+  ECS_TASK_DEFINATION: aws-files/taskdeffile.json
   CONTAINER_NAME: vproapp
 
 jobs: 

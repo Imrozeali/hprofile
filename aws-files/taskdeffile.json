@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:100246540946:task-definition/vprofileapp-act-tdef:1",
+    "taskDefinitionArn": "arn:aws:ecs:ap-south-1:100246540946:task-definition/vproapp-act-tdef:1",
     "containerDefinitions": [
         {
             "name": "vproapp",
@@ -24,7 +24,7 @@
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-create-group": "true",
-                    "awslogs-group": "/ecs/vprofileapp-act-tdef",
+                    "awslogs-group": "/ecs/vproapp-act-tdef",
                     "awslogs-region": "ap-south-1",
                     "awslogs-stream-prefix": "ecs"
                 },
@@ -32,7 +32,7 @@
             }
         }
     ],
-    "family": "vprofileapp-act-tdef",
+    "family": "vproapp-act-tdef",
     "executionRoleArn": "arn:aws:iam::100246540946:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
     "revision": 1,
@@ -78,12 +78,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2024-02-06T06:55:42.587Z",
+    "registeredAt": "2024-02-12T05:34:05.593Z",
     "registeredBy": "arn:aws:iam::100246540946:root",
-    "tags": [
-        {
-            "key": "Name",
-            "value": "vprofileapp-act-tdef"
-        }
-    ]
+    "tags": []
 }
